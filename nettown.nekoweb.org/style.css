@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'VCRMono';
+    src: url('/VCR_OSD_MONO_1.woff2') format('woff2');
+}
+
+body{
+    font-family: 'VCRMono';
+    background-color: cyan;
+    color: purple;
+}
+
+.header{ 
+    grid-area: header;
+    background-color: #048;
+    color: #fff;
+    padding: 0 24px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
