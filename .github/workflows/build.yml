@@ -12,6 +12,6 @@ jobs:
         uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{secrets.NEKOWEB_API_KEY }}
-          nekoweb-domain: 'https://nettown.nekoweb.org/ '
+          nekoweb-domain: 'nettown.nekoweb.org'
           nekoweb-username: 'nettown'
           directory: 'nettown.nekoweb.org'
